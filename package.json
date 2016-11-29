@@ -1,0 +1,43 @@
+{
+  "name": "polywrap",
+  "version": "0.9.0",
+  "description": "a Polyglot's wrapper for extended functionalities",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "NODE_ENV=dev gulp default",
+    "prod": "NODE_ENV=prod gulp build-prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codechick/polywrap.git"
+  },
+  "keywords": [
+    "polyglot"
+  ],
+  "author": "Matteo Bertamini <matteo@codechick.it>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codechick/polywrap/issues"
+  },
+  "homepage": "https://github.com/codechick/polywrap#readme",
+  "devDependencies": {
+    "babel-polyfill": "^6.16.0",
+    "bundle-loader": "^0.5.4",
+    "copy-webpack-plugin": "^4.0.1",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "node-polyglot": "^2.2.1",
+    "path": "^0.12.7",
+    "redux": "^3.6.0",
+    "reset-css": "^2.2.0",
+    "strip-loader": "^0.1.2",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "gulp-shell": "^0.5.2"
+  }
+}
